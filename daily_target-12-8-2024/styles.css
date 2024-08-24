@@ -1,0 +1,35 @@
+body {
+    background-color: #4A9A86;
+}
+.number {
+  width: 80px;
+  height: 160px;
+  background: #FAE29E;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  transform: translateX(10px) translateY(-3px);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #4A9A86;
+}
+.tip {
+  background-color: #FAE29E;
+  grid-row: 1/2;
+  width: 50px;
+  transform:translateX(-40px);
+}
+.slice {
+  width: 70px;
+  height: 70px;
+  background-color:#4A9A86;
+  transform: translateY(-30px)
+  translateX(-30px);
+  border-bottom-right-radius: 40px
+}
