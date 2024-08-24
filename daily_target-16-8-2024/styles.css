@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EADCDC;
+}
+
+.head {
+  width: 250px;
+  height: 200px;
+  background: #EADCDC;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.leftEye {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 32.8px;
+  border-bottom-right-radius: 44.9px;
+  border-top-left-radius: 52.8px;
+  border-top-right-radius: 32.9px;
+  transform: translateX(52px) translateY(-7px);
+  background-color: #151109;
+}
+
+.rightEye {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  width: 60px;
+  height: 61px;
+  border-bottom-right-radius: 29.8px;
+  border-bottom-left-radius: 43.9px;
+  border-top-right-radius: 49.8px;
+  border-top-left-radius: 33.9px;
+  transform: translateX(-31px) translateY(-8px);
+  background-color: #151109;
+}
+
+.leftEyeball {
+  width: 16px;
+  height: 16px;
+  background-color: #EADCDC;
+  transform: translateX(37px) translateY(33px);
+  border-radius: 20px;
+}
+
+.rightEyeball {
+  width: 16px;
+  height: 16px;
+  background-color: #EADCDC;
+  transform: translateX(40px) translateY(35px);
+  border-radius: 20px;
+}
+
+.nose {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: 40px;
+  height: 20px;
+  background-color: #151109;
+  transform: translateX(22px);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.leftEar {
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transform: translateX(18px);
+  background: #151109;
+}
+
+.leftForehead {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  width: 180px;
+  height: 70px;
+  transform: translateY(16px) translateX(20px);
+  border-top-left-radius:78px;
+  border-top-right-radius:90px;
+  background: #EADCDC;
+  position: relative;
+  z-index: 5;
+}
+
+.rightEar {
+  grid-row: 1/2;
+  grid-column:3/4;
+  width: 60px;
+  height: 60px;
+  border-radius: 70px;
+  transform: translateY(-62px) translateX(147px);
+  background: #151109;
+}
