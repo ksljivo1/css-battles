@@ -1,0 +1,41 @@
+body {
+  background-color: #151109;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.sky {
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  border: solid #151109;
+  background-color: #B53733;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.mountain1 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  width: 100px;
+  height: 100px;
+  background-color: #151109;
+  transform: rotate(45deg) translateX(14px) translateY(-13px);
+}
+.mountain2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  width: 70px;
+  height: 100px;
+  background-color: #151109;
+  transform: rotate(45deg) translateX(11px) translateY(15px);
+}
+.moon {
+  grid-row: 2/2;
+  column-row: 2/3;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #151109;
+  transform: translateX(-47px) translateY(-69px);
+}
