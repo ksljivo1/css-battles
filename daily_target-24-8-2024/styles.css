@@ -1,0 +1,20 @@
+body {
+    background: #FAE29E;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    margin: 0px;
+}
+
+.first, .second {
+    width: 200px;
+    height: 150px;
+    background: #668884;
+}
+
+.first {
+    grid-column: 2 / 3;
+}
+
+.second {
+    grid-column: 1 / 2;
+}
