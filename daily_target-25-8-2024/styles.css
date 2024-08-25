@@ -1,0 +1,30 @@
+body, .outer, .inner1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+body, .inner1, .inner2 {
+  background: #E3DCD1;
+}
+  
+.outer {
+  width: 231px;
+  height: 160px;
+  background: #D95F5B;
+  transform: translateX(-1px) translateY(-4px);
+  border-radius: 200px;
+}
+
+.inner1 {
+  width: 116px;
+  height: 160px;
+  transform: translateX(1px);
+}
+
+.inner2 {
+  width: 171px;
+  height: 100px;
+  transform: translateX(-1px);
+  border-radius: 200px;
+}
