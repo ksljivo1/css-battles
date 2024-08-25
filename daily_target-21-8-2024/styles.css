@@ -1,0 +1,39 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  background: #8BADDB;
+}
+
+.head {
+  width: 120px;
+  height: 200px;
+  background: #8BADDB;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leftHair {
+  width: 60px;
+  height: 120px;
+  background: black;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.rightHair {
+  width: 60px;
+  height: 120px;
+  background: black;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.leftEye, .rightEye {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 100px;
+  transform: translateX(20px) translateY(13px);
+}
