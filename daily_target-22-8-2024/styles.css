@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #BDE4C1;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #BDE4C1;
+}
+
+.center {
+  grid-row: 2/3;
+  width: 140px;
+  height: 100px;
+  border-radius: 1050px 1050px 850px 850px;
+  background: #784972;
+  transform: scaleY(2) scaleX(0.73) translateY(30px) translateX(48px);
+}
+
+.top {
+  grid-row: 1/2;
+  width: 210px;
+  height: 207px;
+  rotate: 45deg;
+  transform: translateY(7px) translateX(4px);
+  background: #784972;
+}
+
+.bottom {
+  grid-row: 3/4;
+  width: 210px;
+  height: 205px;
+  rotate: 45deg;
+  transform: translateY(-7px) translateX(-5px);
+  background: #784972;
+}
