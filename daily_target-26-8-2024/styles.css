@@ -1,0 +1,31 @@
+body, .horns{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  background: #B53733;
+}
+
+.horns {
+  grid-template-rows: 1fr 1fr;
+  width: 160px;
+  background: black;
+}
+
+.gap {
+  background: #B53733;
+  transform: translateY(-30px)
+}
+
+.head {
+  background: white;
+  transform: translateY(-70px)
+}
+
+.head, .gap {
+  width: 100px;
+}
+
+.horns, .head, .gap{
+  height: 100px;
+  border-radius: 100px;
+}
