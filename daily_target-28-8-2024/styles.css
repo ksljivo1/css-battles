@@ -1,0 +1,33 @@
+body {
+  background: #EED9D9
+}
+
+.leftArrow {
+  width: 60px;
+  height: 102px;
+ clip-path: polygon(0% 59%, 100% 0%, 100% 43%, 0% 101%);
+  transform: translateY(101px) translateX(132px);
+  background: #EB5868;
+}
+
+.rightArrow {
+  width: 60px;
+  height: 102px;
+ clip-path: polygon(0% 0%, 100% 59%, 100% 100%, 0% 43%);
+  transform: translateY(0px) translateX(191px);
+  background: #942F3A;
+}
+
+.bottom1 {
+  width: 30px;
+  height: 102px;
+  transform: translateY(-68px) translateX(191px);
+  background: #942F3A;
+}
+
+.bottom2 {
+  width: 30px;
+  height: 102px;
+  transform: translateY(-170px) translateX(161px);
+  background: #EB5868;
+}
