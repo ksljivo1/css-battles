@@ -1,0 +1,36 @@
+body {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  background: #FAE29E;
+}
+
+.container {
+  width: 250px;
+  height: 250px;
+  background: #FAE29E;
+}
+
+.smoki1 {
+  width: 60px;
+  height: 120px;
+  border-radius: 50px;
+  transform: translateY(65px);
+  background: #EA9A52;
+}
+
+.smoki2 {
+  width: 60px;
+  height: 120px;
+  border-radius: 50px;
+  transform: translateX(143px) translateY(-138px) rotate(-60deg);
+  background: #EA9A52;
+}
+
+.smoki3 {
+  width: 60px;
+  height: 120px;
+  border-radius: 50px;
+  transform: translateX(143px) translateY(-93px) rotate(60deg);
+  background: #EA9A52;
+}
