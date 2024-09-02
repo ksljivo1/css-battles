@@ -1,0 +1,51 @@
+body, .container {
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  background: #4A9A86;
+}
+
+.container {
+  width: 250px;
+  height: 150px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.a, .b, .c, .d, .e, .f, .g {
+  background: #FAE29E;
+}
+
+.a {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.b {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+.c {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.d {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.e {
+  grid-row: 2/3;
+  grid-column: 5/6;
+}
+
+.f {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.g {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
