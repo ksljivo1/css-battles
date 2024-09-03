@@ -1,0 +1,28 @@
+body, .asterisk2, .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+body, .asterisk3 {
+    background: #B6EBE7;
+}
+
+.asterisk1, .asterisk2 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 200px;
+    height: 200px;
+    background: #9382E4;
+}
+
+.asterisk3 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100px;
+    height: 100px;
+}
+
+.asterisk2, .asterisk3 {
+    transform: rotate(45deg);
+}
