@@ -1,0 +1,38 @@
+body, .container, .asterisk3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #328FC1;
+}
+
+.asterisk1, .asterisk2 {
+    grid-row: 1;
+    grid-column: 1;
+    width: 70px;
+    height: 145px;
+    background: #FADE8B;
+}
+
+.asterisk1 {
+  transform: rotate(-60deg);
+  border-bottom-left-radius: 30px
+}
+
+.asterisk2 {
+  transform: rotate(60deg);
+  border-top-left-radius: 30px
+}
+
+.asterisk3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  background: #222222;
+  transform: translateX(38px) translateY(9px);
+}
+  .eye {
+    width: 10px;
+    height: 10px;
+    background: #FADE8B;
+    border-radius: 30px;
+  }
