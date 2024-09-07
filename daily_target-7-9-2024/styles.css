@@ -1,0 +1,33 @@
+body, .container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: #DE817E;
+}
+
+.container {
+  width: 142px;
+  height: 142px;
+  transform: rotate(-45deg);
+  background: #217E81;
+}
+
+.a {
+  width: 43px;
+  height: 43px;
+  transform: translateX(58px);
+  background: #DE817E;
+}
+
+.b {
+  width: 58px;
+  height: 58px;
+  background: #DE817E;
+}
+
+.c {
+  width: 43px;
+  height: 43px;
+  transform: translateX(-43px);
+  background: #DE817E;
+}
