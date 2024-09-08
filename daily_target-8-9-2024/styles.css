@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  margin: 0px;
+  background: #5D3A3A;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: #B5E0BA;
+}
