@@ -1,0 +1,31 @@
+body {
+  background: #8CD5F5;
+}
+
+.container, body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  width: 250px;
+  height: 80px;
+  border-radius: 90px;
+  background: #328FC1;
+}
+
+.hole1, .hole2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 90px;
+  background: #8CD5F5;
+}
+
+.hole1 {
+  transform: translateX(-85px) translateY(30px);
+}
+
+.hole2 {
+  transform: translateX(85px) translateY(-30px);
+}
