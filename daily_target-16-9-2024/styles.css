@@ -1,0 +1,24 @@
+body, .container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+body {
+  background: #191919;
+}
+
+.container {
+  width: 200px;
+  height: 140px;
+  border-radius: 40px;
+  background: #EA333D;
+}
+
+.triangle {
+  width: 53px;
+  height: 61px;
+  transform: translateX(8px) translateY(-1px);
+  background: white;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
