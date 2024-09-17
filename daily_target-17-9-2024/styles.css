@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-content: end;
+  background: #EA9A52;
+  margin: 0px;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 250px 50%, 250px 100%, 150px 100%, 150px 50%, 0% 50%);
+  background: #515697;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #FCEBEB;
+  transform: translateX(150px);
+  border-radius: 70px;
+}
