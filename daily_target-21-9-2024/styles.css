@@ -1,0 +1,43 @@
+body, .container {
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  background: #4A9A86;
+}
+
+.container {
+  width: 100px;
+  height: 300px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.a, .b, .c, .d, .e, .f, .g {
+  background: #FAE29E;
+}
+
+.a {
+  grid-column: 2;
+}
+
+.b {
+  grid-row: 2;
+}
+
+.c {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.d {
+  grid-row: 4;
+}
+
+.e {
+  grid-row: 5;
+  grid-column: 2;
+}
+
+.f {
+  grid-row: 6;
+}
