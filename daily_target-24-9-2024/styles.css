@@ -1,0 +1,36 @@
+body {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  background: #9076D8;
+}
+
+.container {
+  justify-content: left;
+  align-content: center;
+  display: grid;
+  width: 129px;
+  height: 200px;
+  background: #9076D8;
+}
+
+.up, .down, .left {
+  grid-row: 1;
+  grid-column: 1;
+  background: #F3EAD2;
+  width: 40px;
+}
+
+.left {
+  height: 200px;
+}
+
+.up {
+  height: 130px;
+  transform: rotate(45deg) translateY(-37px) translateX(30px);
+}
+
+.down {
+  height: 130px;
+  transform: rotate(-45deg) translateY(86px) translateX(-20px);
+}
