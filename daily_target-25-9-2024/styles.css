@@ -1,0 +1,54 @@
+body {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  background: #0B2429;
+}
+
+.containera, .containerb {
+  width: 300px;
+  height: 77px;
+  transform: translateY(-1px);
+  background: #0B2429;
+  display: flex;
+}
+
+.a, .c, .e {
+  width: 70px;
+  height: 70px;
+  background: #F3AC3C;
+}
+
+.b, .d, .f {
+  width: 100px;
+  height: 70px;
+  background: #F3AC3C;
+}
+
+.a {
+  transform: translateX(15px);
+}
+
+.b {
+  transform: translateX(30px);
+}
+
+.c {
+  transform: translateX(45px);
+}
+
+.d {
+  transform: translateY(8px);
+}
+
+.e {
+  transform: translateX(15px) translateY(8px);
+}
+
+.f {
+  width: 100px;
+  height: 70px;
+  transform: translateX(30px) 
+translateY(8px);
+  background: #F3AC3C;
+}
