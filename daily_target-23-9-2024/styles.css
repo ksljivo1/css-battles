@@ -1,0 +1,32 @@
+body, .container {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  background: #5D3A3A;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+}
+
+.circle1, .circle2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  background: #B5E0BA;
+}
+
+.line {
+  width: 200px;
+  height: 40px;
+  background: #B5E0BA;
+}
+
+.circle1 {
+  transform: translateY(-20px) translateX(70px);
+}
+
+.circle2 {
+  transform: translateY(20px) translateX(70px);
+}
