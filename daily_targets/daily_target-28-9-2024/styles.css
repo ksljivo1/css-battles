@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #C3D1A5;
+}
+
+#container {
+  width: 210px;
+  height: 210px;
+  border: 30px solid;
+  border-color: #374812;
+}
+
+#a {
+  border-right: 30px solid;
+  border-bottom: 30px solid;
+  transform: translateX(-30px) translateY(-30px);
+}
+
+#b {
+  border-left: 30px solid;
+  border-top: 30px solid;
+  transform: translateX(100px) translateY(20px);
+}
+
+#a, #b {
+  width: 80px;
+  height: 80px;
+  border-color: #374812;
+  background: #C3D1A5;
+}
