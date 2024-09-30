@@ -1,0 +1,21 @@
+body, #triangle {
+  background: #F3EAD2;
+}
+
+body,  #container {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  background: #EAC049;
+}
+
+#triangle {
+  width: 120px;
+  height: 120px;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
