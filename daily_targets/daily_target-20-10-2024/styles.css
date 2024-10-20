@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #0B2429;
+}
+
+.c {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.a, .b {
+  width: 90px;
+  height: 85px;
+  background: #998235;
+}
+
+.d {
+  width: 130px;
+  height: 90px;
+  border-radius: 50px;
+  background: #F3AC3C;
+}
