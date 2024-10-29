@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6255AA;
+}
+
+#a {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  background: #D96E9F;
+  position: relative;
+}
+
+#b, #d {
+  background: #6255AA;
+  position: absolute;
+  inset: 25px;
+}
+
+#c {
+  background: #D96E9F;
+  position: absolute;
+  inset: 25px;
+  border-radius: 20%;
+}
