@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: #2D3464;
+  margin: 30px;
+}
+
+#a {
+  width: 120px;
+  height: 180px;
+  background: #C0D6E7;
+  display: flex;
+  flex-direction: column;
+}
+
+#b {
+  position: relative;
+  height: 120px;
+}
+
+#d {
+  position: absolute;
+  inset: 20px -20px 20px -20px;
+  background: #C0D6E7;
+  border-radius: 100px;
+}
+
+#c {
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  background: #2D3464;
+}
+
+#e {
+  background: #D95362;
+}
