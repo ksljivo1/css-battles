@@ -1,0 +1,43 @@
+div:nth-child(even) {
+  height: 80px;
+  position: relative;
+}
+
+div div {
+  background: #F5BB60;
+  position: relative;
+}
+
+div div:nth-child(odd) {
+  height: 40px;
+}
+
+body {
+  position: relative;
+  background: #2F5A76;
+  margin: 0;
+}
+
+#c {
+  bottom: 40px;
+}
+
+#d {
+  bottom: 120px;
+}
+
+#e {
+  bottom: 160px;
+}
+
+#f {
+  bottom: 240px;
+}
+
+#a {
+  position: absolute;
+  inset: 20px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr repeat(4, 1fr);
+  align-items: end;
+}
