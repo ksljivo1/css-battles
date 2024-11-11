@@ -1,0 +1,44 @@
+body {
+  position: relative;
+  margin: 0;
+  background: #EEF8FF;
+}
+
+#a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 120px;
+  background: #8AB8B6;
+}
+
+#b {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 44px;
+}
+
+#c, #d, #e, #f{
+  background: #EEF8FF;
+  border-radius: 0 0 100% 100%;
+}
+
+#g {
+  position: relative;
+  background: #4A7D7B;
+  grid-column: 2 / 4;
+  bottom: 52px;
+  height: 60px;
+  clip-path: polygon(0 0, 100% 0, 83% 100%, 17% 100%, 0 0);
+}
+
+#i {
+  position: absolute;
+  width: 100px;
+  height: 140px;
+  background: #4A7D7B;
+  top: 32;
+  left: 200px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 0 0);
+}
