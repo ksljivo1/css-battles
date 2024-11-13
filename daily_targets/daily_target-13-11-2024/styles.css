@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  background: #F3EAD2;
+}
+
+#a {
+  inset: 57px 12px 57px 12px;
+  border-top: 40px solid #857495;
+  border-inline: 30px solid #857495;
+}
+
+#b {
+  inset: 100px -30px 0 -30px;
+}
+
+#a, #b {
+  position: absolute;
+  background: #D97D71;
+}
