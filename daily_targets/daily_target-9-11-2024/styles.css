@@ -1,0 +1,23 @@
+body {
+  background: #AA445F;
+  position: relative;
+  margin: 0;
+}
+
+#a {
+  position: absolute;
+  inset: 0 180px 130px 0;
+  background: #62306D;
+}
+
+#b {
+  position: absolute;
+  inset: 130px 0 0 180px;
+  background: #62306D;
+}
+
+#c {
+  position: absolute;
+  inset: 80px 120px;
+  background: #E38F66;
+}
