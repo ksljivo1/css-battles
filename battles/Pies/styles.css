@@ -1,0 +1,46 @@
+body {
+    position: relative;
+    margin: 0;
+    background: #37212D;
+}
+
+#a {
+  position: absolute;
+  inset: 30% 20% 30% 20%;
+  background: #EE9B99;
+}
+
+#b {
+  position: relative;
+  background: #76608A;
+  height: 100%;
+  width: 50%;
+}
+
+#c {
+  position: absolute;
+  inset: 0;
+  background: #EE9B99;
+  border-radius: 100% 0 0;
+}
+
+#d {
+  position: absolute;
+  inset: 50% 0 0 0;
+  background: #BCE6E9;
+  border-radius: 100px 100px 0 0;
+}
+
+#f {
+  position: absolute;
+  inset: 0 -100% 0 100%;
+  background: #BCE6E9;
+  border-radius: 0 200px 0 0;
+}
+
+#e {
+  position: absolute;
+  inset: 0 -50% 0 100%;
+  background: #76608A;
+  border-radius: 0 100px 100px 0;
+}
