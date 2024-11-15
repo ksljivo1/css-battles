@@ -1,0 +1,21 @@
+div::before, div {
+  position: absolute;
+  background: #A82973;
+}
+
+div::before {
+  content: "";
+  width: 100%;
+  height: 56px;
+  top: -72px;
+  border-radius: 50%;
+}
+
+body {
+  position: relative;
+  background: #EA9A52;
+}
+
+div {
+  inset: 118px 164px 46px 164px;
+}
