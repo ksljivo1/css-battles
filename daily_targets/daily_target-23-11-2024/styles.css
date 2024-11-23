@@ -1,0 +1,20 @@
+body, #a, #b, #c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEB850;
+}
+
+#a {
+  width: 220px;
+  height: 110px;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #243D83;
+  border-radius: 20px;
+}
+
+#b, #c {
+  width: 70px;
+  height: 15px;
+}
