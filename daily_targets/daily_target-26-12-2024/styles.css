@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  background: #5393BD;
+}
+
+#a {
+  position: absolute;
+  inset: 42px 92px;
+  border: 30px solid #FAE29E; 
+  border-right: none;
+  border-top: none;
+}
+
+#b {
+  position: relative;
+  width: 30px;
+  height: 164px;
+  background: #FAE29E;
+  top: 43px;
+  rotate: -45deg;
+  left: 32px
+}
