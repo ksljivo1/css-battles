@@ -1,0 +1,22 @@
+body, #b, #c {
+  display: grid;
+  place-content: center;
+  background: #D95362;
+}
+  
+#a {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #2D3464;
+}
+
+#b, #c {
+  position: absolute;
+  inset: 90px 35px;
+}
+
+#c {
+  inset: 35px 90px 100px 90px;
+}
