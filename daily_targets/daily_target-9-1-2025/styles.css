@@ -1,0 +1,36 @@
+body {
+  background: #FADE8B;
+  margin: 0;
+  position: relative;
+}
+
+#a {
+  position: absolute;
+  inset: 15px 255px 132px 105px;
+  background: #61A74E;
+}
+
+#b {
+  inset: 165px 215px 15px 65px;
+}
+
+.c {
+  position: absolute;
+  border: 40px solid #61A74E;
+  border-radius: 50%;
+  background: #FADE8B;
+}
+
+#d {
+  position: absolute;
+  border: 40px solid #61A74E;
+  border-radius: 0 0 100% 0;
+  border-top: none;
+  border-left: none;
+  inset: 130px 106px 54px 168px;
+  background: transparent;
+}
+
+#e {
+  inset: 15px 65px 165px 215px;
+}
