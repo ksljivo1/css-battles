@@ -1,0 +1,20 @@
+body, #c {
+  position: relative;
+  background: #2F5A76;
+}
+
+.a {
+  position: absolute;
+  inset: 32px 132px 132px;
+  border-radius: 50%;
+  border: 30px solid #7EA6DD;
+}
+
+#b {
+  inset: 132px 132px 32px;
+}
+
+#c {
+  position: absolute;
+  inset: 82px 192px 82px 132px;
+}
