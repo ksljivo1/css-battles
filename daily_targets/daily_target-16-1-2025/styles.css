@@ -1,0 +1,20 @@
+body {
+  position: relative;
+  background: #8F77DA;
+  margin: 0;
+}
+
+.a {
+  position: absolute;
+  background: #A1E6E4;
+}
+
+#b {
+  inset: -60px 160px 45px 170px;
+  rotate: -35deg;
+}
+
+#c {
+  inset: -90px 160px 43px 170px;
+  rotate: 35deg;
+}
