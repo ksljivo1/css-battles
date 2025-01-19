@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  border-inline: 130px solid #328FC1;
+  border-block: 80px solid #328FC1;
+  background: #FADE8B;
+  position: relative;
+}
+
+#a {
+  inset: -80px 200px 150px -130px;
+  border-bottom-right-radius: 100%;
+}
+
+#b {
+  inset: 150px -130px -80px 200px;
+  border-top-left-radius: 100%;
+}
+
+.c {
+  position: absolute;
+  background: #FADE8B;
+}
