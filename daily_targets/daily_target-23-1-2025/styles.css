@@ -1,0 +1,24 @@
+div, body {
+  position: absolute;
+  background: #A1E6E4;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+#a {
+  inset: 50px 80px;
+  background: #2F5A76;
+}
+
+#b {
+  inset: 80px 50px;
+  border-inline: 60px solid #2F5A76;
+  border-block: 30px solid #2F5A76;
+}
+
+#c {
+  inset: 25px -30px;
+}
