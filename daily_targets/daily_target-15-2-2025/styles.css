@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  position: relative;
+  background: #FADE8B;
+  height: 100vh;
+}
+
+#a {
+  position: absolute;
+  inset: 14px 100px;
+  background: #FADE8B;
+  border-inline: 80px solid #61A74E;
+  border-top: 155px solid #61A74E;
+  border-bottom: 72px solid #61A74E;
+}
+
+#b {
+  position: absolute;
+  inset: 214px 80px 0 80px;
+  background: #61A74E;
+}
