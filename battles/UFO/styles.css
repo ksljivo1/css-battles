@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #2F434E;
+  height: 100vh;
+}
+
+.b {
+  width: 20px;
+  height: 20px;
+  background: #E25C57;
+  translate: 0 3px;
+  border-radius: 50%;
+}
+
+#a {
+  position: absolute;
+  inset: 167px 70px 87px;
+  background: #F3AC3C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  clip-path: polygon(0 100%, 19% 0, 81% 0, 100% 100%);
+}
+
+#c {
+  position: absolute;
+  inset: 87px 120px 133px;
+  border-top-left-radius: 99px;
+  border-top-right-radius: 99px;
+  background: #E25C57;
+}
