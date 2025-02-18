@@ -1,0 +1,26 @@
+body {
+  background: #3F4869;
+}
+
+#a {
+  position: absolute;
+  inset: 60px;
+}
+
+#b, #c, #d {
+  position: absolute;
+  inset: 0 100px 50% 0;
+  border-radius: 99px 99px 0 0;
+  background: #F4DA64;
+}
+
+#c {
+  inset: 0 0 0 100px;
+  border-radius: 50%;
+  background: #E25C57
+}
+
+#d {
+  inset: 50% 100px 0 0;
+  border-radius: 0 0 90px 90px;
+}
