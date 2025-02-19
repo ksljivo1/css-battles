@@ -1,0 +1,23 @@
+body {
+  background: #B0E1FB;
+}
+
+#a {
+  position: absolute;
+  inset: 40px 165px 60px;
+  background: #4B4D88;
+  border-radius: 99px;
+  border: 10px solid #B0E1FB;
+}
+
+.b {
+  position: absolute;
+  inset: 200px 135px 40px;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  background: #C15965;
+}
+
+#c {
+  inset: 110px 135px 130px;
+  background: #4B4D88;
+}
