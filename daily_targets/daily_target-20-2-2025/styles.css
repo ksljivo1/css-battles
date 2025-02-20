@@ -1,0 +1,17 @@
+#a, #b {
+  position: absolute;
+  background: #FBE374;
+  inset: 153px 80px 47px;
+  border-radius: 50%;
+}
+
+#b, body {
+  background: #3F4869;
+  inset: 7px 30px 33px;
+}
+
+#c {
+  position: absolute;
+  inset: 200px 80px 0;
+  background: #9C8A39;
+}
