@@ -1,0 +1,21 @@
+body {
+  background: #183539;
+}
+
+div::before, div::after, div {
+  position: absolute;
+  content: "";
+  background: #183539;
+  inset: 90px 50% 165px 0;
+}
+
+div {
+  background: #EBE77E;
+  inset: 15px 150px;
+  border-radius: 50px 50px 0 0;
+}
+
+div::after {
+  inset: 180px 75% 40px 0;
+  border-radius: 0 50px 50px 0;
+}
