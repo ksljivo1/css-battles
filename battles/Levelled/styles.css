@@ -1,0 +1,35 @@
+body {
+  background: #F8B140;
+}
+
+#a, #c {
+  position: absolute;
+  inset: 30px 80px;
+  background: white;
+  border: 30px solid;
+  border-radius: 50%;
+}
+
+#b {
+  position: absolute;
+  inset: 50% 15px 15px 15px;
+  background: #67AED4;
+  border-radius: 0 0 80px 80px;
+}
+
+#c {
+  inset: 65px;
+  border: none;
+}
+
+#b::before, #b::after {
+  content: "";
+  position: absolute;
+  inset: -25px 100px 75px 0;
+  border-radius: 80px 80px 0 0;
+  background: #67AED4;
+}
+
+#b::after {
+  inset: -25px 0 75px 100px;
+}
