@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  border-inline: 130px solid #96551A;
+  background: #EA9A52;
+  height: 100%;
+}
+
+#a, #b {
+  position: absolute;
+  inset: 115px 165px;
+  background: #96551A;
+}
+
+#b {
+  inset: 140px 0;
+}
