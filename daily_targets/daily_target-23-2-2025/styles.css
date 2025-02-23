@@ -1,0 +1,15 @@
+* {
+  background: #EAC049;
+  margin: 0;
+}
+
+div {
+  width: 180px;
+  height: 50px;
+  margin: 0 auto 25px auto;
+  background: #51A499;
+}
+
+div:nth-child(2n) {
+  height: 25px;
+}
