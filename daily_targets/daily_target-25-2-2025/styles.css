@@ -1,0 +1,19 @@
+body {
+  margin: 0 20px;
+  border-block: 50px solid #3F4869;
+  height: 100%;
+  box-sizing: border-box;
+  background: #F2EAA8;
+}
+
+#a, #b {
+  position: absolute;
+  inset: 75px 110px;
+  background: #3F4869;
+}
+
+#b {
+  inset: 25px;
+  border: 25px solid #F2EAA8; 
+  border-inline: 20px solid #F2EAA8;
+}
