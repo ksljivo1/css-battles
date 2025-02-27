@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: #183539;
+}
+
+#a {
+  position: fixed;
+  inset: -190px 53px 225px;
+  border-radius: 50%;
+  border: 30px solid #46BA67;
+}
+
+#b, #c {
+  position: fixed;
+  inset: 0 150px;
+  background: #46BA67;
+}
+
+#c {
+  inset: 96px 60px 174px 75px;
+}
