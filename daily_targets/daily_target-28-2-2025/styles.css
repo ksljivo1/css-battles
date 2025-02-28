@@ -1,0 +1,18 @@
+* {
+  background: #EBE77E;
+}
+
+#a, #b, #c {
+  position: fixed;
+  inset: 110px 160px;
+  border-left: 30px solid #DE817E;
+  border-bottom: 30px solid #DE817E;
+}
+
+#b {
+  inset: 30px 240px 190px 80px;
+}
+
+#c {
+  inset: 190px 80px 30px 240px;
+}
