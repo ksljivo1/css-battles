@@ -1,0 +1,49 @@
+* {
+  background: #84B9C7;
+}
+
+#a {
+  position: fixed;
+  inset: 150px 240px 90px 40px;
+  border-radius: 0 0 80px 80px;
+  background: #1A353C;
+}
+
+#b {
+  position: fixed;
+  inset: 150px 270px 120px 70px;
+  border-radius: 0 0 80px 80px;
+  background: #84B9C7;
+}
+
+#c {
+  position: fixed;
+  inset: 150px 40px 90px 240px;
+  border-radius: 0 0 80px 80px;
+  background: #1A353C;
+}
+
+#d {
+  position: fixed;
+  inset: 150px 70px 120px 270px;
+  border-radius: 0 0 80px 80px;
+  background: #84B9C7;
+}
+
+#e {
+  position: fixed;
+  inset: 150px 130px 46px 240px;
+  background: #1A353C;
+}
+
+#f {
+  position: fixed;
+  inset: 150px 240px 46px 130px;
+  background: #1A353C;
+}
+
+#g {
+  position: fixed;
+  inset: 100px 40px 170px 40px;
+  background: #1A353C;
+}
