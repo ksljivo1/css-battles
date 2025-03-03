@@ -1,0 +1,25 @@
+* {
+  background: #EAC049;
+}
+
+#a, #b, #b::after, #a::after {
+  position: fixed;
+  inset: 70px 120px 150px;
+  border-radius: 90px 90px 0 0;
+  background: #343D42;
+}
+
+#b {
+  inset: 150px 200px 110px 120px;
+  border-radius: 0 0 90px 90px;
+}
+
+#a::after, #b::after  {
+  content: "";
+  inset: 110px 120px 150px 200px;
+  background: #EAC049;
+}
+
+#b::after {
+  inset: 170px 220px 110px 140px;
+}
