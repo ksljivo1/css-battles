@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100px;
+  background: #4A9A86;
+  border-inline: 77px solid #4A9A86;
+  border-block: 100px solid #EBF6F0;
+}
+
+div {
+  position: fixed;
+  inset: 66px 115px;
+  background: #4A9A86;
+  border-radius: 50%;
+}
