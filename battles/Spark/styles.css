@@ -1,0 +1,32 @@
+* {
+  background: #343848;
+}
+
+#a, #b, #c {
+  position: fixed;
+  inset: 50px 260px 210px 0;
+  background: #E25C57;
+}
+
+#b {
+  inset: 50px 0 210px 260px;
+}
+
+#c {
+  inset: 210px 180px 0 180px;
+}
+
+#d, #e, #f {
+  position: fixed;
+  inset: 50px 180px 210px 180px;
+  background: #F4DA64;
+  rotate: 45deg;
+}
+
+#e {
+  inset: 130px 220px 130px 140px;
+}
+
+#f {
+  inset: 130px 140px 130px 220px;
+}
