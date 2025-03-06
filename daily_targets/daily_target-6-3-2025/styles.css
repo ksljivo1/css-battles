@@ -1,0 +1,29 @@
+body {
+  background: #DE6B67;
+  height: 100vh;
+  margin: 0;
+  border-inline: 85px solid #E8AD6D;
+}
+
+#a {
+  height: 100%;
+  margin-inline: auto;
+  border-inline: 20px solid #E8AD6D;
+  width: 110px
+}
+
+#b {
+  position: fixed;
+  inset: 82px 187px 193px;
+  background: #E8AD6D;
+  rotate: -45deg;
+  transform: skew(10deg, 10deg);
+}
+
+#c {
+  position: fixed;
+  inset: 192px 187px 83px;
+  background: #E8AD6D;
+  rotate: -45deg;
+  transform: skew(10deg, 10deg);
+}
