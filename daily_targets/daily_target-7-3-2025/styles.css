@@ -1,0 +1,22 @@
+* {
+  background: #FFEFF7;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 70px 255px 70px 0;
+  background: #226AA9;
+}
+
+#b {
+  inset: 70px 90px 70px 145px;
+  background: #DEB467;
+  clip-path: polygon(0 0, 110px 80px, 0 100%)
+}
+
+#c {
+  position: absolute;
+  inset: 33px 20px 33px 60px;
+  background: black;
+  border-radius: 50%;
+}
