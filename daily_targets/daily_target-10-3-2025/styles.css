@@ -1,0 +1,19 @@
+* {
+  background: #F58220;
+}
+
+div, div::before, div::after {
+  position: fixed;
+  inset: 140px 120px;
+  background: white;
+}
+
+div::before, div::after {
+  content: "";
+  inset: 70px 230px 70px 110px;
+  transform: skew(-20.6deg);
+}
+
+div::after {
+  inset: 70px 110px 70px 230px;
+}
