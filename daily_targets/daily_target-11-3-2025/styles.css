@@ -1,0 +1,23 @@
+body {
+  background: #323130;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  place-content: space-between;
+  align-items: center;
+}
+
+div {
+  width: 160px;
+  height: 80px;
+  background: #00B0C8;
+}
+
+#a {
+  width: 80px;
+  height: 40px;
+  background: #323130;
+  border-inline: 160px solid #00B0C8;
+  border-block: 20px solid #00B0C8;
+}
