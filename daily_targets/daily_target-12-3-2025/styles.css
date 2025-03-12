@@ -1,0 +1,27 @@
+body, #c, #d, #e {
+  background: #BFE33A;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 30px 180px 30px -20px;
+  border-radius: 50%;
+  border: 40px solid #5A9F48;
+}
+
+#b {
+  inset: 30px -20px 30px 180px;
+}
+
+#c, #d, #e {
+  position: fixed;
+  inset: 0 285px 0 85px;
+}
+
+#d {
+  inset: 0 85px 0 285px;
+}
+
+#e {
+  inset: 135px 0;
+}
