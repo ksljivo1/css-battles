@@ -1,0 +1,15 @@
+* {
+  background: #FFE8BD;
+  position: fixed;
+}
+
+#a, #b {
+  inset: 45px 180px 45px 80px;
+  border: 40px solid #31798F;
+  border-bottom: none;
+  border-radius: 99px 99px 0 0;
+}
+
+#b {
+  inset: 45px 80px 45px 180px;
+}
