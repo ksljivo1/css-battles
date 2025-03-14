@@ -1,0 +1,14 @@
+body {
+  height: 247px;
+  background: #D96C7B;
+  display: flex;
+  place-content: center;
+  gap: 60px;
+  align-items: end;
+}
+
+div {
+  width: 40px;
+  height: 74px;
+  background: #8B0051;
+}
