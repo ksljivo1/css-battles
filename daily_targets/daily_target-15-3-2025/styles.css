@@ -1,0 +1,17 @@
+* {
+  background: #4F77FF;
+}
+
+div {
+  position: fixed;
+  inset: 54px 104px;
+  border: 32px solid #FFF;
+  border-radius: 50%;
+}
+
+div::after {
+  position: fixed;
+  content: "";
+  inset: 214px 72px 54px;
+  background: #FFF;
+}
