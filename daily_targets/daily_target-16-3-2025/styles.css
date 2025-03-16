@@ -1,0 +1,27 @@
+* {
+  background: #EAC049;
+}
+
+#a {
+  position: fixed;
+  inset: 60px 110px;
+  border: 20px solid #51A499;
+}
+
+#b, #c, #d, #e {
+  position: fixed;
+  inset: 40px 270px 220px 90px;
+  background: #51A499;
+}
+
+#c {
+  inset: 40px 90px 220px 270px;
+}
+
+#d {
+  inset: 220px 270px 40px 90px;
+}
+
+#e {
+  inset: 220px 90px 40px 270px;
+}
