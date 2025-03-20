@@ -1,0 +1,19 @@
+body {
+  background: #D4ED33;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 0 220px 0 85px;
+  border-inline: 30px solid #1A353C;
+}
+
+#b {
+  inset: 0 85px 0 220px;
+}
+
+#c {
+  position: fixed;
+  inset: 135px 160px;
+  background: #1A353C;
+}
