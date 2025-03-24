@@ -1,0 +1,32 @@
+* {
+  background: #E3516E;
+}
+
+#a, #f {
+  position: fixed;
+  inset: 30px;
+  border: 20px solid #66284A;
+}
+
+#b, #c, #d, #e {
+  position: fixed;
+  inset: 30px 290px 190px 30px;
+  background: #66284A;
+}
+
+#c {
+  inset: 30px 30px 190px 290px;
+}
+
+#d {
+  inset: 190px 290px 30px 30px;
+}
+
+#e {
+  inset: 190px 30px 30px 290px;
+}
+
+#f {
+  inset: 70px;
+  background: transparent;
+}
