@@ -1,0 +1,26 @@
+* {
+  background: #E35158;
+}
+
+#a {
+  position: fixed;
+  inset: 30px 144px 158px;
+  border: 36px solid #D9D9D9;
+  border-radius: 50%;
+}
+
+#b {
+  position: fixed;
+  inset: 120px 180px 37px;
+  background: #D9D9D9;
+}
+
+#c, #d {
+  position: fixed;
+  inset: 192px 166px 94px 180px;
+  background: #D9D9D9;
+}
+
+#d {
+  inset: 216px 150px 54px 180px;
+}
