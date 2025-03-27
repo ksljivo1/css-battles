@@ -1,0 +1,39 @@
+* {
+  background: #282828;
+}
+
+#a {
+  position: fixed;
+  inset: 80px 130px;
+  background: #FFF;
+  border-radius: 20px;
+}
+
+#b {
+  position: fixed;
+  inset: 110px 90px 110px 270px;
+  background: #F2A73B;
+  clip-path: polygon(0 0, 100% 50%, 0 100%)
+}
+
+#c {
+  position: fixed;
+  inset: 110px 150px 160px 235px;
+  background: #282828;
+  border-radius: 50%;
+}
+
+#d, #e, #f {
+  position: fixed;
+  inset: 65px 160px 220px 210px;
+  background: #EA3323;
+  border-radius: 50px 50px 0 0;
+}
+
+#e {
+  inset: 70px 200px 220px 180px;
+}
+
+#f {
+  inset: 75px 230px 220px 160px;
+}
