@@ -1,0 +1,14 @@
+* {
+  background: #00B0C8;
+}
+
+#b, #a {
+  position: fixed;
+  inset: 140px 50px;
+  background: #FFF;
+}
+
+#a {
+  inset: 80px 130px;
+  border: 20px solid #1A353C;
+}
