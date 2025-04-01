@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  display: grid;
+  margin: 0;
+  grid: 1fr 180px 1fr / 230px 1fr;
+  background: #EAC049;
+}
+
+div:nth-child(4n-1), div:nth-child(4n-2) {
+  background: #51A499;
+}
