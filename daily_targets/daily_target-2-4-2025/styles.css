@@ -1,0 +1,20 @@
+* {
+  background: #5A9F48;
+  position: fixed;
+}
+
+#a {
+  inset: 70px 100px 150px;
+  background: #394257;
+}
+
+#b {
+  inset: 150px 155px 0;
+  border-inline: 30px solid #394257;
+}
+
+#c {
+  inset: 70px 120px;
+  border: 30px solid #394257;
+  border-radius: 50%;
+}
