@@ -1,0 +1,24 @@
+* {
+  background: #F5E3B5;
+}
+
+#a, #b, #a::before, #a::after {
+  position: fixed;
+  inset: 90px 120px;
+  background: #469DBA;
+}
+
+#b, #a::before, #a::after {
+  inset: 130px 0 130px 260px;
+  border-radius: 50px 0 0 50px;
+}
+
+#a::before, #a::after {
+  content: "";
+  inset: 110px 280px 110px 80px;
+}
+
+#a::after {
+  inset: 110px 120px 110px 240px;
+  background: #F5E3B5;
+}
