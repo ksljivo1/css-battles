@@ -1,0 +1,16 @@
+* {
+  background: #FFEEEE;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 45px 80px 115px;
+  border: 30px solid #56AE68;
+  border-radius: 0 90px 90px 0;
+}
+
+#b {
+  inset: 155px 80px 45px;
+  border-radius: 0 70px 0 0;
+  border-bottom: 0;
+}
