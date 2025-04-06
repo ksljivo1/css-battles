@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  margin: 0;
+  background: #2A2753;
+  justify-content: center;
+  height: 100%;
+}
+
+div {
+  width: 50%;
+  height: 65%;
+  background: #E25C57;
+  clip-path: polygon(0 105px, 50% 195px, 100% 105px, 100% 0, 0 0)
+}
+
+div:nth-child(1) {
+  background: #C3C441;
+}
+
+div:nth-child(2) {
+  align-self: end;
+  rotate: 180deg;
+}
