@@ -1,0 +1,21 @@
+* {
+  background: #FCEBEB;
+}
+
+#a {
+  position: fixed;
+  inset: 114px 56px;
+  display: flex;
+  align-items: end;
+  place-content: space-between
+}
+
+#a div {
+  width: 24px;
+  height: 33%;
+  background: #8E2C88;
+}
+
+#a div:nth-child(even) {
+  height: 100%;
+}
