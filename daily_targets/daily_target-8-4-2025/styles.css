@@ -1,0 +1,45 @@
+* {
+  background: #14576B;
+}
+
+#e, #f, #g, #h {
+  position: fixed;
+  background: #5A9F48;
+  inset: 12px 170px 268px;
+}
+
+#f {
+  inset: 46px 150px 234px;
+}
+
+#g {
+  inset: 268px 170px 12px;
+}
+
+#h {
+  inset: 234px 150px 46px;
+}
+
+.c, .d, #b {
+  width: 20px;
+  height: 60px;
+  background: #5A9F48;
+}
+
+.d {
+  height: 100px;
+}
+
+#b {
+  height: 100%;
+  flex: 1;
+}
+
+#a {
+  position: fixed;
+  inset: 80px 62px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 14px;
+}
