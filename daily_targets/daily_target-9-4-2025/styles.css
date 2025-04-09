@@ -1,0 +1,19 @@
+* {
+  background: #F58220;
+  position: fixed;
+  inset: 140px 50px;
+}
+
+#b {
+  inset: 60px 110px;
+  border-radius: 50%;
+}
+
+#a {
+  inset: 80px 50px;
+  border: 20px solid #FFF;
+}
+
+#c {
+  background: #FFF;
+}
