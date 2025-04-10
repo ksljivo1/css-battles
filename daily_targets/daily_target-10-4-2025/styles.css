@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  position: fixed;
+  inset: 52px 30px;
+  display: grid;
+  grid: 140px 1fr / 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+div {
+  background: #BDC8D1;
+}
+
+div:last-of-type {
+  grid-column: span 3;
+}
