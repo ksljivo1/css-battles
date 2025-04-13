@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  height: 100%;
+  margin: 0;
+  gap: 10px;
+  background: #E3CC9E;
+}
+
+div {
+  background: #2A2753;
+  height: 50px;
+  border-radius: 90px;
+}
+
+.a {
+  width: 100px;
+}
+
+.b {
+  width: 50px;
+}
