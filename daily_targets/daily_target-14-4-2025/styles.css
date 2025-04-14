@@ -1,0 +1,26 @@
+* {
+  background: #343400;
+}
+
+#a {
+  position: fixed;
+  inset: 70px 75px;
+  background: #469DBA;
+  border-radius: 50%;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.b {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#c {
+  position: fixed;
+  inset: 180px 280px 90px 90px;
+  background: #469DBA;
+}
