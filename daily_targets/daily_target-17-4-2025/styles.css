@@ -1,0 +1,35 @@
+* {
+  background: #D96C7B;
+}
+
+#a {
+  position: fixed;
+  inset: 30px 80px;
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+}
+
+#a * {
+  background: #FFF;
+  border-radius: 100% 0 0 0;
+}
+
+#a div:nth-child(2) {
+  border-radius: 0 100% 0 0;
+  width: 80px;
+  height: 80px;
+  align-self: end;
+}
+
+#a div:nth-child(3) {
+  border-radius: 0 0 0 100%;
+  width: 20px;
+  height: 20px;
+  justify-self: end;
+}
+
+#a div:nth-child(4) {
+  border-radius: 0 0 100% 0;
+  width: 40px;
+  height: 40px;
+}
