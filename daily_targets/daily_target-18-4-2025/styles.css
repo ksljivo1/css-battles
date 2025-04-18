@@ -1,0 +1,17 @@
+* {
+  background: #2D3464;
+}
+
+div, div::after {
+  content: "";
+  position: fixed;
+  inset: 0 0 0 50%;
+  background: #2D3464;
+}
+
+div {
+  inset: 90px 140px;
+  border: 20px solid #D9D9D9;
+  outline: 20px solid #646DAB;
+  border-radius: 50%;
+}
