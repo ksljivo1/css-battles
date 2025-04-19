@@ -1,0 +1,22 @@
+body {
+  margin: 60px 80px;
+  background: #FEFAED;
+}
+
+div {
+  width: 240px;
+  height: 180px;
+  background: #F9D9BF;
+  position: relative;
+}
+
+div::before, div::after {
+  content: "";
+  position: absolute;
+  inset: 0 75% 50% 0;
+  background: #D4A29F;
+}
+
+div::after {
+  inset: 50% 0 0 75%;
+}
