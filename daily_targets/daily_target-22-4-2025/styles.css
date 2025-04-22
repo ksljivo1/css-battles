@@ -1,0 +1,21 @@
+* {
+  background: #5A9F48;
+}
+
+#a {
+  position: fixed;
+  inset: 100px 70px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  clip-path: polygon(0 0, 50% 100%, 100% 0)
+}
+
+#a * {
+  width: 40px;
+  background: #2A2753;
+}
+
+#a div:first-child, #a div:last-child {
+  width: 45px;
+}
