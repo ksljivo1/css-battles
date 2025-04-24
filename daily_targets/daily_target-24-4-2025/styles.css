@@ -1,0 +1,19 @@
+* {
+  background: #6255AA;
+}
+
+#a, #b, #c {
+  position: fixed;
+  inset: 125px 25px;
+  background: #5DCBA3;
+}
+
+#b {
+  inset: 75px 75px 75px 275px;
+}
+
+#c {
+  inset: 25px 25px 25px 325px;
+  background: transparent;
+  border-block: 50px solid #5DCBA3;
+}
