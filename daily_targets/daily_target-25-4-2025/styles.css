@@ -1,0 +1,22 @@
+* {
+  background: #F5E3B5;
+}
+
+#a, #b, #c {
+  position: fixed;
+  inset: 135px 185px 135px;
+  border-radius: 50%;
+}
+
+#a {
+  inset: 0 140px 90px;
+  border-inline: 30px solid #8D424D;
+  border-bottom: 120px solid #8D424D;
+  border-radius: 0 0 99px 99px;
+}
+
+#c {
+  inset: 60px 170px 180px;
+  border: 15px solid #F5E3B5;
+  background: #8D424D;
+}
