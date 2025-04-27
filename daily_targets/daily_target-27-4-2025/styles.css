@@ -1,0 +1,21 @@
+* {
+  background: #CAEBE4;
+}
+
+#a {
+  position: fixed;
+  inset: 60px 110px;
+  background: #5AA4B7;
+  border-radius: 50%;
+}
+
+#a::before, #a::after {
+  content: "";
+  position: absolute;
+  inset: 50% 150px 0 0;
+  background: #CAEBE4;
+}
+
+#a::after {
+  inset: 50% 0 0 150px;
+}
