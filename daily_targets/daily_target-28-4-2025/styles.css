@@ -1,0 +1,18 @@
+* {
+  background: #66DBB8;
+  position: fixed;
+}
+
+#b {
+  background: transparent;
+  inset: 50px 150px;
+  border: 15px solid #4C4C6B;
+  border-radius: 99px;
+}
+
+#a {
+  inset: 120px 0;
+  background: #4C4C6B;
+  border-block: 10px solid #66DBB8;
+  outline: 20px solid #4C4C6B;
+}
