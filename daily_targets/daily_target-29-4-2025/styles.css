@@ -1,0 +1,28 @@
+* {
+  background: #F7EC7D;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 90px 60px;
+  background: #243D83;
+  border-radius: 99px;
+}
+
+#a {
+  rotate: 90deg;
+}
+
+#b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.c {
+  width: 60px;
+  height: 60px;
+  background: #FFF;
+  border-radius: 50%;
+}
