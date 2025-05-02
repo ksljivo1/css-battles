@@ -1,0 +1,28 @@
+* {
+  background: #FEFAED;
+}
+
+#a {
+  position: fixed;
+  inset: 70px 80px;
+  display: flex;
+}
+
+#a div {
+  flex: 1;
+  background: #9A5DCB;
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+#a div:first-child, #a div:last-child {
+  align-self: end;
+}
+
+#a div:first-child {
+  border-radius: 20px 0 20px 0;
+}
+
+#a div:last-child {
+  border-radius: 0 20px 0 20px;
+}
