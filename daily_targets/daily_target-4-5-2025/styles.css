@@ -1,0 +1,16 @@
+* {
+  background: #FAE29E;
+  position: fixed;
+}
+
+#a, #b {
+  inset: 40px 75px 170px;
+  border: 40px solid #4A9A86;
+  border-top: 0;
+}
+
+#b {
+  inset: 170px 75px 40px;
+  border-color: #4C4C6B;
+  rotate: 180deg;
+}
