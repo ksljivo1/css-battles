@@ -1,0 +1,35 @@
+* {
+  background: #EBF6F0;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 232px 0 0;
+  background: #4E4B44;
+}
+
+#b {
+  inset: 192px 36px 28px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  background: transparent;
+}
+
+#b * {
+  background: #4A9A86;
+  width: 85px;
+  height: 100%;
+  border-radius: 100%;
+}
+
+#b .c {
+  width: 42px;
+  height: 50%;
+}
+
+#b .d {
+  width: 64px;
+  height: 74%;
+}
