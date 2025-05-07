@@ -1,0 +1,16 @@
+* {
+  background: #2D3464;
+  margin: 0;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 0;
+  background: #C0D6E7;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+#a {
+  background: #5AA4B7;
+  rotate: 180deg;
+}
