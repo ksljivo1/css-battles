@@ -1,0 +1,31 @@
+* {
+  position: fixed;
+  background: #D2F8FF;
+}
+
+#a {
+  inset: 90px 0 30px 0;
+  background: #072949;
+}
+
+#b {
+  inset: 0 0 -16px 220px;
+  border-radius: 0 0 0 55%;
+}
+
+#c {
+  inset: 0 220px -16px 0;
+  border-radius: 0 0 55% 0;
+}
+
+#d {
+  inset: 30px 140px 150px;
+  background: #3F8090;
+  border-radius: 50%;
+}
+
+#d div {
+  position: absolute;
+  inset: 50% 40px 0;
+  background: #072949;
+}
