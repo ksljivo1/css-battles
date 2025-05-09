@@ -1,0 +1,30 @@
+* {
+  background: #F4DCBF;
+}
+
+.a {
+  background: #D95362;
+  position: fixed;
+}
+
+#b, #e {
+  inset: 15px 215px 165px 125px;
+  border-radius: 0 99px;
+}
+
+#c, #d {
+  inset: 15px 125px 165px 215px;
+  border-radius: 99px 0;
+}
+
+#d {
+  inset: 165px 215px 15px 125px;
+}
+
+#e {
+  inset: 165px 125px 15px 215px;
+}
+
+#f {
+  inset: 135px 185px;
+}
