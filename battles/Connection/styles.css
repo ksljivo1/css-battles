@@ -1,0 +1,29 @@
+* {
+  background: #3F4869;
+  position: fixed;
+}
+
+#a {
+  inset: 70px 120px;
+  border-radius: 50%;
+  background: green;
+  background: conic-gradient(#F4DA64 225deg, transparent 225deg 315deg, #F4DA64 315deg 360deg);
+}
+
+#a::after, #a::before {
+  content: "";
+  position: absolute;
+  inset: 70px 110px 70px 20px;
+  background: #F4DA64;
+}
+
+#a::before {
+  inset: 20px;
+  border: 20px solid #3F4869;
+  border-radius: 50%;
+}
+
+#b {
+  inset: 140px 100px;
+  background: #F4DA64;
+}
