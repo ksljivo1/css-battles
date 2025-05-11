@@ -1,0 +1,23 @@
+* {
+  position: fixed;
+  background: #F7EC7D;
+}
+
+body {
+  border-left: 200px solid #4C6B50;
+  margin: 0;
+  height: 100%;
+}
+
+#a {
+  inset: 60px 50% 60px 60px;
+  background: #4C6B50;
+  border: 60px solid #F7EC7D;
+  border-right: 0;
+}
+
+#b {
+  inset: 60px 60px 60px 50%;
+  border: 60px solid #4C6B50;
+  border-left: 0;
+}
