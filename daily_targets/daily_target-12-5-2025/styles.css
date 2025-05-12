@@ -1,0 +1,23 @@
+* {
+  background: #ED6A9D;
+  position: fixed;
+}
+
+#a {
+  inset: 100px 50px 0;
+  background: #ED6A9D;
+  border: 60px solid #30383F;
+  border-top: 0;
+}
+
+#b {
+  position: absolute;
+  inset: 0 60px 60px;
+  background: #30383F;
+}
+
+#c {
+  inset: 10px 110px 200px;
+  background: #30383F;
+  border-radius: 99px 99px 0 0;
+}
