@@ -1,0 +1,24 @@
+* {
+  background: #243D83;
+  position: fixed;
+}
+
+div {
+  inset: 30px 120px;
+  background: #5AA4B7;
+  clip-path: polygon(0 80px, 50% 0, 100% 80px, 100% 100%, 0 100%);
+  border-radius: 0 0 99px 99px;
+}
+
+div::after, div::before {
+  position: absolute;
+  content: "";
+  inset: 80px 120px 80px 0;
+  background: #243D83;
+  border-radius: 0 99px 99px 0;
+}
+
+div::before {
+  inset: 80px 0 80px 120px;
+  border-radius: 99px 0 0 99px;
+}
