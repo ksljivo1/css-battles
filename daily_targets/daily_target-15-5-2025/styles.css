@@ -1,0 +1,16 @@
+* {
+  background: #F4DA64;
+}
+
+#a {
+  position: fixed;
+  inset: 30px 90px 40px;
+  display: grid;
+  grid-template: 1fr 50px 1fr / 1fr 40px 1fr;
+  gap: 0 10px;
+}
+
+.c {
+  background: #243D83;
+  border-top: 10px solid #D95F5B;
+}
