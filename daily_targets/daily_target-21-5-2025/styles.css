@@ -1,0 +1,25 @@
+* {
+  background: #EDDF5A;
+}
+
+#a {
+  position: fixed;
+  inset: 50px 0;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 140px 1fr 140px;
+  gap: 40px;
+}
+
+.b {
+  background: #C53025;
+}
+
+#a :nth-child(2) {
+  grid-row: span 3;
+}
+
+#c {
+  position: fixed;
+  inset: 130px 0;
+  background: #C53025;
+}
