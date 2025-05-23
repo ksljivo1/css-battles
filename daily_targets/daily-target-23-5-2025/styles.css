@@ -1,0 +1,26 @@
+* {
+  background: #BFE33A;
+}
+
+div {
+  position: fixed;
+  inset: 30px 240px 190px 80px;
+  border: 40px solid #5A9F48;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#b {
+  inset: 30px 80px 190px 240px;
+  rotate: -90deg;
+}
+
+#c {
+  inset: 190px 240px 30px 80px;
+  rotate: 90deg;
+}
+
+#d {
+  inset: 190px 80px 30px 240px;
+  rotate: 180deg;
+}
