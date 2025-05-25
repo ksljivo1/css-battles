@@ -1,0 +1,27 @@
+* {
+  position: fixed;
+  background: #F4DA64;
+}
+
+#a {
+  inset: 125px 100px 75px;
+  border: 25px solid #469DBA;
+  border-radius: 99px 99px 0 0;
+  border-bottom: 0;
+}
+
+#b {
+  inset: 225px 125px 0;
+  border: 25px solid #469DBA;
+  border-top: 0;
+  border-radius: 0 0 99px 99px;
+}
+
+#c, #d {
+  inset: 0 187px 2px;
+  background: #469DBA;
+}
+
+#d {
+  inset: 175px 150px 75px;
+}
