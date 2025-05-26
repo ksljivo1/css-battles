@@ -1,0 +1,23 @@
+* {
+  background: #186D37;
+  position: fixed;
+}
+
+#a, #b {
+  inset: 10px 150px;
+  border-block: 40px solid #48BF7D;
+  rotate: -45deg;
+}
+
+#b {
+  rotate: 45deg;
+}
+
+#c, #d {
+  inset: 80px 175px;
+  border-block: 20px solid #48BF7D;
+}
+
+#d {
+  rotate: 90deg;
+}
