@@ -1,0 +1,28 @@
+* {
+  background: #6592CF;
+  margin: 7.4px;
+}
+
+div {
+  background: #EEB850;
+  width: 180px;
+  height: 70px;
+  margin-inline: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.a::before, #b::before, #b::after {
+  position: absolute;
+  content: "";
+  inset: -5px 55px;
+  background: #EEB850;
+}
+
+#b::before {
+  inset: -5px 110px -5px 0;
+}
+
+#b::after {
+  inset: -5px 0 -5px 110px;
+}
