@@ -1,0 +1,27 @@
+* {
+  background: #F58220;
+  position: fixed;
+}
+
+div {
+  border-radius: 50%;
+  background: white;
+  inset: 10px 340px 170px -60px;
+}
+
+#a, #b, #d {
+  background: #282828;
+  inset: 170px 340px 10px -60px;
+}
+
+#b {
+  inset: 10px -60px 170px 340px;
+}
+
+#c {
+  inset: 170px -60px 10px 340px;
+}
+
+#d {
+  inset: 110px 160px
+}
