@@ -1,0 +1,26 @@
+* {
+  background: #23384B;
+  position: fixed;
+}
+
+div {
+  inset: 80px 130px;
+  background: #D36354;
+  border: 20px solid #D9D9D9;
+  border-radius: 50%;
+}
+
+div::before, div::after {
+  position: absolute;
+  content: "";
+  inset: 20px;
+  background: #23384B;
+}
+
+div::before {
+  border-radius: 50%;
+}
+
+div::after {
+  inset: 30px 35px -20px;
+}
