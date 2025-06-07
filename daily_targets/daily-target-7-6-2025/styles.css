@@ -1,0 +1,41 @@
+* {
+   background: #5AA4B7;
+   position: fixed;
+ }
+
+div {
+  background: black;
+  border-radius: 10px;
+}
+
+#a {
+  inset: 70px 100px 210px;
+}
+
+#b {
+  inset: 210px 100px 70px;
+}
+
+#c {
+  inset: 50px 260px 50px 120px;
+}
+
+#d {
+  inset: 50px 120px 50px 260px;
+}
+
+#e, #f, #g, #h {
+  inset: 110px 190px;
+}
+
+#f {
+  rotate: 45deg;
+}
+
+#g {
+  rotate: -45deg;
+}
+
+#h {
+  rotate: 90deg;
+}
