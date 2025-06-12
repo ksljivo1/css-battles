@@ -1,0 +1,16 @@
+* {
+  background: #2D3464;
+  margin: 0;
+}
+
+div {
+  width: 160px;
+  height: 80px;
+  border-radius: 0 0 99px 99px;
+  margin-inline: auto;
+  background: #5AA4B7;
+}
+
+#a {
+   border-radius: 99px 99px 0 0;
+}
