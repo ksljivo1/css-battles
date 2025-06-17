@@ -1,0 +1,24 @@
+* {
+  background: #F4DCBF;
+}
+
+#a {
+  position: fixed;
+  inset: 110px 100px;
+  background: #556D7F;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 20px;  
+}
+
+.a, #b {
+  width: 40px;
+  height: 20px;
+  border-block: 20px solid #3C342A;
+  background: #556D7F;
+}
+
+#b {
+  border-block: 20px solid #F4DCBF;
+}
