@@ -1,0 +1,16 @@
+* {
+  background: #FADE8B;
+  position: fixed;
+}
+
+div {
+  inset: 40px 145px;
+  background: #D24444;
+}
+
+div::before {
+  position: absolute;
+  content: "";
+  inset: 40px 40px 40px 0;
+  border-block: 50px solid #FADE8B;
+}
