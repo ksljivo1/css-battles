@@ -1,0 +1,36 @@
+* {
+  background: #FEFEFF;
+}
+
+#a {
+  position: fixed;
+  inset: 0;
+  border: 20px solid #5AA4B7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.a {
+  width: 100px;
+  height: 100px;
+  background: #5AA4B7;
+  border-radius: 50%;
+}
+
+#b {
+  position: fixed;
+  inset: 130px 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.b {
+  background: #5AA4B7;
+  width: 40px;
+  height: 20px;
+}
