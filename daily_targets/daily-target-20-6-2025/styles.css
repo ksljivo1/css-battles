@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  background: #FEFEFF;
+}
+
+div {
+  position: fixed;
+  inset: 0;
+  border: 60px solid #EEB850;
+  border-left: 20px solid #EEB850;
+  border-top: 20px solid #EEB850;
+}
+
+div::before, div::after {
+  position: absolute;
+  content: "";
+  inset: 0 260px 0 0;
+  background: #6592CF;
+}
+
+div::after {
+  inset: 100px 0 60px 0;
+}
