@@ -1,0 +1,20 @@
+* {
+  background: #5A9F48;
+}
+
+div, div::before, div::after {
+  content: "";
+  position: fixed;
+  inset: 70px 140px;
+  background: #FADE8B;
+  border-radius: 30px;
+}
+
+div::before {
+  rotate: 90deg;
+}
+
+div::after {
+  inset: 120px 170px;
+  background: #D24444;
+}
