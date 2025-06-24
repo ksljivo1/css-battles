@@ -1,0 +1,21 @@
+* {
+  background: #F7BED9;
+  position: fixed;
+}
+
+#a {
+  inset: 90px 0;
+  border-block: 50px solid #EC007B;
+}
+
+#b {
+  inset: 40px 100px 160px 150px;
+  border: 50px solid #EC007B;
+  border-bottom: 0;
+}
+
+#c {
+  inset: 160px 150px 40px 100px;
+  border: 50px solid #EC007B;
+  border-top: 0;
+}
