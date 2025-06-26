@@ -1,0 +1,38 @@
+* {
+  background: #243D83;
+}
+
+div {
+  background: #D9D9D9;
+  border-radius: 199px;
+}
+
+#a, #b {
+  position: fixed;
+  inset: 84px 258px 112px 38px;
+}
+
+#b {
+  position: fixed;
+  inset: 84px 38px 112px 258px;
+}
+
+#b::before, #b::after, #a::before, #a::after {
+  position: absolute;
+  content: "";
+  inset: 20px 36px -28px 0;
+  background: #D9D9D9;
+  border-radius: 199px;
+}
+
+#b::after {
+  inset: 42px 124px 42px -40px;
+}
+
+#a::before {
+  inset: 20px 0 -28px 36px;
+}
+
+#a::after {
+  inset: 42px -40px 42px 124px;
+}
