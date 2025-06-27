@@ -1,0 +1,20 @@
+* {
+  background: #394257;
+  position: fixed;
+}
+
+#a, #b, #c {
+  inset: 20px 50% 160px 80px;
+  border: 40px solid #D24444;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#b {
+  inset: 180px 50% 0 80px;
+}
+
+#c {
+  inset: 100px 80px 80px 200px;
+  rotate: 90deg;
+}
