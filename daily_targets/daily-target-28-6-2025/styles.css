@@ -1,0 +1,18 @@
+* {
+  position: fixed;
+}
+
+#a {
+  inset: 80px 30px;
+  border: 45px solid #9CBBC2;
+}
+
+#c, #b {
+  inset: 0 120px 0 200px;
+  border-block: 125px solid #5A8D9A;
+}
+
+#b {
+  inset: 0 200px 0 120px;
+  opacity: 0.6;
+}
