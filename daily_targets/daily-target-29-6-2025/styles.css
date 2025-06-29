@@ -1,0 +1,43 @@
+#a {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+div {
+  background: #48BF7D;
+}
+
+#a div:first-child {
+  background: #394257;
+}
+
+#a div:last-child {
+  position: relative;
+  background: #FADE8B;
+}
+
+div:nth-child(3) {
+  position: relative;
+  background: #D24444;
+}
+
+div:nth-child(3)::before, div:last-child::before {
+  position: absolute;
+  content: "";
+  inset: 0 90px 110px 30px;
+  background: white;
+  border-radius: 0 0 99px 99px;
+}
+
+div:last-child::before {
+  inset: 0 30px 110px 90px;
+}
+
+#b {
+  position: fixed;
+  inset: 110px 160px;
+  background: white;
+  border-radius: 50%;
+}
