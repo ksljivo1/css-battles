@@ -1,0 +1,25 @@
+* {
+  background: #FADE8B;
+}
+
+div {
+  background: #556D7F;
+}
+
+.b {
+  background: #D24444;
+  border-radius: 50%;
+}
+
+.a {
+  background: #556D7F;
+}
+
+#a {
+  background: #FADE8B;
+  position: fixed;
+  inset: 50px 45px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / repeat(5, 1fr);
+  gap: 25px 15px;
+}
