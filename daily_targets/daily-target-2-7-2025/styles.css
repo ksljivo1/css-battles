@@ -1,0 +1,32 @@
+* {
+  background: #EFF8FE;
+}
+
+div {
+  background: #4F77FF;
+}
+
+#a div {
+  width: 60px;
+  height: 100%;
+}
+
+#a div:first-child {
+  height: 70%;
+}
+
+#a div:last-child {
+  height: 50%;
+}
+
+#a {
+  position: fixed;
+  background: #EFF8FE;
+  inset: 50px 50px 40px 40px;
+  border-left: 10px solid #4F77FF;
+  border-bottom: 10px solid #4F77FF;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 30px;
+}
