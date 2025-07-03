@@ -1,0 +1,27 @@
+* {
+  background: #CE636F;
+}
+
+#a {
+  position: fixed;
+  inset: 0;
+  border-top: solid #F7BED9 80px;
+}
+
+#b {
+  position: fixed;
+  background: #F7BED9;
+  inset: 0 80px 140px;
+  border-radius: 0 0 40px 40px;
+  display: flex;
+}
+
+#b div {
+  background: #B44141;
+  flex: 1;
+  height: 50%;
+}
+
+#b div:nth-child(2) {
+  align-self: end;
+}
