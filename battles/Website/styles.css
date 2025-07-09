@@ -1,0 +1,37 @@
+* {
+  background: #FDFFE9;
+}
+
+#a {
+  position: fixed;
+  inset: 20px;
+  display: grid;
+  grid-template: 30px 40px 60px 60px 30fr / 80px 1fr;
+  gap: 10px;
+}
+
+.a {
+  width: 20px;
+  height: 20px;
+  background: #555A2A;
+  margin-inline: 5px;
+}
+
+#a > div {
+  background: #ADB274;
+}
+
+#a div:first-child, div:last-child {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div:last-child {
+  justify-content: center;
+}
+
+#a div:nth-child(2) {
+  grid-row: span 3;
+}
