@@ -1,0 +1,32 @@
+* {
+  background: #F8B140;
+}
+
+.b, .b::after {
+  position: absolute;
+  inset: 0 -65px;
+  background: #2F434E;
+  border-radius: 50%;
+  border: 30px solid #CF6939;
+}
+
+.b::after {
+  content: "";
+  inset: 30px;
+  border: 30px solid #F8B140;
+  background: #CF6939;
+}
+
+.a, .c, .d {
+  position: absolute;
+  inset: 45px 160px;
+  overflow: hidden;
+}
+
+.c {
+  inset: 45px 260px 45px 60px;
+}
+
+.d {
+  inset: 45px 60px 45px 260px;
+}
