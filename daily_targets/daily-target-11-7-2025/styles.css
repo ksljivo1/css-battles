@@ -1,0 +1,30 @@
+* {
+  background: #F7BED9;
+}
+
+#a {
+  position: fixed;
+  inset: 100px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.a, .a::before, .b, .b::before {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background: #F069AB;
+  border-radius: 20px;
+}
+
+.a::before, .b::before {
+  position: absolute;
+  content: "";
+  top: 60px;
+}
+
+.b, .b::before {
+  width: 100px;
+  background: #EC0076;
+}
