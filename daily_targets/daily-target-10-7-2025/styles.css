@@ -1,0 +1,30 @@
+* {
+  background: #7AA70A;
+  position: fixed;
+}
+
+#a {
+  inset: 120px 115px 40px 155px;
+  border: 40px solid white;
+  border-radius: 0 80px 80px 0;
+  border-left: 0;
+}
+
+#b {
+  inset: 40px 175px 140px 115px;
+  border: 40px solid white;
+  border-right: 0;
+  border-radius: 40px 0 0 30px;
+}
+
+#c {
+  inset: 40px 115px 220px;
+  background: white;
+  border-radius: 40px 40px 0 0;
+}
+
+#d {
+  inset: 220px 185px 40px 115px;
+  background: white;
+  border-radius: 0 0 0 40px;
+}
