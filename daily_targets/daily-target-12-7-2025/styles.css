@@ -1,0 +1,34 @@
+* {
+  background: #504B72
+}
+
+#b {
+  width: 120px;
+  height: 60px;
+  border-block: 20px solid #FFFBCC;
+}
+
+.a, .a::before, .a::after {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  background: #FFFBCC;
+}
+
+.a::before, .a::after {
+  position: absolute;
+  content: "";
+  top: 80px;
+}
+
+.a::after {
+  top: -80px;
+}
+
+#a {
+  position: fixed;
+  inset: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
