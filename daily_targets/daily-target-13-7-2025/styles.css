@@ -1,0 +1,29 @@
+* {
+  background: #48BF7D;
+}
+
+.a, .a::before, .a::after {
+  position: relative;
+  width: 30px;
+  height: 80px;
+  background: white;
+}
+
+.a::before, .a::after {
+  position: absolute;
+  content: "";
+  top: 95px;
+}
+
+.a::after {
+  top: -95px;
+}
+
+#a {
+  position: fixed;
+  inset: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
