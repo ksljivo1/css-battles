@@ -1,0 +1,25 @@
+body {
+  background: #FEFF58;
+}
+
+#a {
+  position: fixed;
+  inset: 40px 50px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  border: 5px solid;
+  background: #D2F8FF;
+}
+
+#a div {
+  border: 5px solid;
+  z-index: 1;
+}
+
+#a::before {
+  position: absolute;
+  content: "";
+  inset: 65px 5px 0;
+  background: #CF6939;
+  border-radius: 199px 199px 0 0;
+}
