@@ -1,0 +1,23 @@
+* {
+  background: #CEEDFF;
+}
+
+div {
+  position: fixed;
+  inset: 110px 25px;
+  background: #05476C;
+}
+
+#a {
+  inset: -65px 25px 190px;
+  background: #2BBBF3;
+  border-radius: 199px 199px 0 0;
+}
+
+#a::before {
+  position: absolute;
+  content: "";
+  inset: 0 25px -63px;
+  background: #CEEDFF;
+  border-radius: 0 0 199px 199px;
+}
