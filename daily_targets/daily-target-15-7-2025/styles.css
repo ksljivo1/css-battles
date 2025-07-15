@@ -1,0 +1,22 @@
+* {
+  background: #2F5A76;
+}
+
+#a {
+  position: fixed;
+  inset: 135px 85px 135px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#a div {
+  width: 30px;
+  background: #F5BB60;
+  border-radius: 50%;
+}
+
+#b {
+  position: fixed;
+  inset: 0 0 0 135px;
+  border-block: 30px solid #F5BB60;
+}
