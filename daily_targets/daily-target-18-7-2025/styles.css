@@ -1,0 +1,17 @@
+* {
+  position: fixed;
+  background: #F28BBB;
+}
+
+div {
+  inset: -65px 25px;
+  border: 25px solid #B03F7D;
+  border-radius: 200px;
+}
+
+div::before {
+  position: absolute;
+  content: "";
+  inset: 150px -25px;
+  border-inline: 135px solid #680039;
+}
