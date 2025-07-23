@@ -1,0 +1,37 @@
+* {
+  background: #C05F6A;
+}
+
+#a {
+  position: fixed;
+  inset: 45px 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#a div {
+  height: 30px;
+  width: 100%;
+  background: #F2EAA8;
+}
+
+#a div:nth-child(2) {
+  width: 230px;
+}
+
+#a div:nth-child(3) {
+  width: 190px;
+}
+
+#a div:last-child {
+  width: 150px;
+}
+
+#a::after {
+  position: absolute;
+  content: "";
+  inset: 0 70px;
+  border-inline: 30px solid #C05F6A;
+}
