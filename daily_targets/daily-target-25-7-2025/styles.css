@@ -1,0 +1,24 @@
+* {
+  background: #FADE8B;
+}
+
+div {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 68px;
+  left: 144px;
+  background: #556D7F;
+  border-radius: 20px;
+}
+
+#a {
+  top: 88px;
+  left: 236px;
+  background: #D24444;
+}
+
+#b {
+  top: 160px;
+  left: 164px;
+}
