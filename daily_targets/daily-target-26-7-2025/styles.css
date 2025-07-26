@@ -1,0 +1,20 @@
+div {
+  position: fixed;
+  inset: 110px 80px 150px;
+  background: #6855BF;
+  border-radius: 10px 10px 0 0 ;
+}
+
+div::after, div::before {
+  position: absolute;
+  content: "";
+  inset: 100% -20px -110px;
+  background: #9E8DEC;
+  border-radius: 10px;
+}
+
+div::before {
+  inset: -40px 20px 100%;
+  background: #5528A5;
+  border-radius: 10px 10px 0 0;
+}
