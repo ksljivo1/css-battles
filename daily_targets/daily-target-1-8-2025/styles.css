@@ -1,0 +1,20 @@
+* {
+  background: #B6EBE7;
+}
+
+div {
+  position: fixed;
+  inset: 96px 182px;
+  background: #3A335A;
+}
+
+div::before, div::after {
+  position: absolute;
+  content: "";
+  inset: 126px -164px -78px 0;
+  background: #3A335A;
+}
+
+div::after {
+  inset: -78px 0 126px -164px;
+}
