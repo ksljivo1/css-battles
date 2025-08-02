@@ -1,0 +1,27 @@
+* {
+  background: #31938C;
+}
+
+#a {
+  position: fixed;
+  inset: 25px 60px;
+  background: white;
+  border-radius: 20px;
+}
+
+#b {
+  padding: 15px 20px;
+  position: absolute;
+  inset: 60px 30px 30px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / repeat(4, 1fr);
+  gap: 20px;
+}
+
+#b * {
+  background: white;
+}
+
+#b div:first-child, #b div:last-child {
+  opacity: 0;
+}
