@@ -1,0 +1,25 @@
+* {
+  background: #7E6293;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+#b {
+  inset: 50px 157px;
+  background: white;
+  clip-path: polygon(54px 0, 100% 0, 32px 100%, 1px 100%)
+}
+
+.a {
+  width: 90px;
+  height: 120px;
+  top: 50px;
+  left: 75px;
+  border: 30px solid white;
+  border-radius: 50px;
+}
+
+#a {
+  top: 130px;
+  left: 235px;
+}
