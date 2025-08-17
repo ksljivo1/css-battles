@@ -1,0 +1,29 @@
+* {
+  background: #41434B;
+  position: fixed;
+}
+
+.c {
+  background: white;
+  inset: 70px 240px 130px 60px;
+  border-radius: 99px 99px 0;
+}
+
+.c::before {
+  position: absolute;
+  content: "";
+  inset: 35px 55px 35px 15px;
+  background: #41434B;
+  border-radius: 50%;
+}
+
+.a {
+  inset: 70px 60px 130px 240px;
+  border-radius: 99px 99px 99px 0;
+}
+
+#a {
+  background: #D95F5B;
+  inset: 170px 160px 70px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
