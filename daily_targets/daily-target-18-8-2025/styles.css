@@ -1,0 +1,26 @@
+* {
+  background: #E8AD6D;
+}
+
+#a {
+  position: fixed;
+  inset: 90px 60px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 60px 1fr;
+  gap: 20px 10px;
+}
+
+#a div {
+  background: #3B240C;
+}
+
+#a div:first-child {
+  grid-column: 1 / 4;
+}
+
+#a div:nth-child(2n) {
+  border-radius: 99px 99px 0 0;
+  border: 30px solid #3B240C;
+  border-bottom: 0;
+  background: #E8AD6D;
+}
