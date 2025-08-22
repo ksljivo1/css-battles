@@ -1,0 +1,17 @@
+* {
+  position: white;
+  position: fixed;
+}
+
+div {
+  inset: 0 80px;
+  border-inline: 50px solid #F88889;
+}
+
+div::after {
+  position: absolute;
+  content: "";
+  inset: 125px -80px;
+  background: black;
+  border-radius: 99px;
+}
