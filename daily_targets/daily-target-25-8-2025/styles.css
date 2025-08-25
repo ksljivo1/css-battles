@@ -1,0 +1,29 @@
+* {
+  background: #3A335A;
+}
+
+div, div::after, div::before {
+  position: fixed;
+  inset: 135px 130px;
+  background: white;
+}
+
+div::after, div::before {
+  position: absolute;
+  content: "";
+  inset: -70px 0 70px 0;
+}
+
+div::before {
+  inset: 70px 0 -70px 0;
+}
+
+#a {
+  inset: 136px 300px 134px -30px;
+  rotate: 15deg;
+}
+
+#b {
+  inset: 136px -30px 134px 300px;
+  rotate: -15deg;
+}
