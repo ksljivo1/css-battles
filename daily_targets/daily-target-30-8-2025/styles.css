@@ -1,0 +1,17 @@
+* {
+  position: fixed;
+  background: #A1E8A7;
+}
+
+div {
+  inset: 50px 75px 0;
+  border-top: 50px solid #D2495C;
+  border-inline: 100px solid #D2495C;
+}
+
+*::before {
+  position: absolute;
+  content: "";
+  inset: 0 -50px 50px;
+  border-block: 50px solid #A1E8A7;
+}
