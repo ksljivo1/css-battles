@@ -1,0 +1,23 @@
+* {
+  background: #E25C57;
+}
+
+div, div::before, div::after {
+  position: fixed;
+  background: #F4DA64;
+  inset: 50px 0 220px 50%;
+}
+
+div::before, div::after {
+  position: absolute;
+  content: "";
+  inset: -50px 0 50px;
+}
+
+div::after {
+  inset: 50px 0 -50px;
+}
+
+#a {
+  inset: 220px 50% 50px 0;
+}
