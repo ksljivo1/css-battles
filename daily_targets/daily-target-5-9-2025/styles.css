@@ -1,0 +1,20 @@
+* {
+  background: #CA8E75;
+}
+
+div {
+  position: fixed;
+  inset: 50px 90px;
+  background: #FEFF58;
+  rotate: 15deg;
+}
+
+div:nth-of-type(2) {
+  rotate: -15deg;
+  inset: 90px 30px;
+  background: #414B81;
+}
+
+div:last-of-type {
+  inset: 120px 160px;
+}
