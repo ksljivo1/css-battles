@@ -1,0 +1,27 @@
+* {
+  background: #142032;
+  position: fixed;
+}
+
+#a, #a::before, #a::after {
+  inset: 50px 260px 210px 100px;
+  border: 10px solid #142032;
+  background: #00B1D4;
+  outline: 10px solid #00B1D4;
+}
+
+#a::before, #a::after {
+  position: fixed;
+  content: '';
+  inset: 50px 100px 210px 260px;
+}
+
+#a::after {
+  inset: 210px 260px 50px 100px;
+}
+
+#b {
+  inset: 150px 90px 40px 200px;
+  border-right: 30px solid #00B1D4;
+  border-bottom: 30px solid #00B1D4;
+}
