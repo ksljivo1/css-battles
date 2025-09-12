@@ -1,0 +1,41 @@
+* {
+  position: fixed;
+  background: #D24444;
+}
+
+#a {
+  inset: 15px 65px;
+  border: 20px solid #F3DA7A;
+  border-radius: 50%;
+}
+
+#a::before, #a::after {
+  position: absolute;
+  content: '';
+  inset: 0 105px;
+  border-block: 20px solid #F3DA7A;
+}
+
+#a::after {
+  rotate: 45deg;
+}
+
+#b {
+  inset: 80px 130px 140px 190px;
+  border: 20px solid #F3DA7A;
+  background: transparent;
+  border-top: 0;
+  border-right: 0;
+}
+
+#b::before, #b::after {
+  position: fixed;
+  content: '';
+  inset: 35px 190px;
+  border-block: 20px solid #F3DA7A;
+  rotate: 90deg;
+}
+
+#b::after {
+  rotate: -45deg;
+}
