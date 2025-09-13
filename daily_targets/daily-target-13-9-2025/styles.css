@@ -1,0 +1,22 @@
+* {
+  position: fixed;
+  background: #F1E1BE;
+}
+
+div {
+  inset: 140px 0;
+  border-inline: 105px solid #240D29;
+}
+
+div::before, div::after {
+  position: fixed;
+  content: '';
+  inset: 25px 185px 225px;
+  background: #240D29;
+  box-shadow: 70px 30px #240D29, -70px 30px #240D29;
+}
+
+div::after {
+  inset: 215px 185px 25px;
+  box-shadow: 70px -30px #240D29, -70px -30px #240D29;
+}
