@@ -1,0 +1,23 @@
+* {
+  background: #EDDF5A;
+}
+
+div, div::before, div::after {
+  position: fixed;
+  inset: 30px 180px 100px;
+  background: #3E4071;
+}
+
+div::after, div::before {
+  content: '';
+  background: #3E4071;
+  inset: 230px 60px 30px;
+}
+
+div::before {
+  background: transparent;
+  inset: 52px 130px 108px 130px;
+  border-left: 40px solid #3E4071;
+  border-bottom: 40px solid #3E4071;
+  rotate: -45deg;
+}
