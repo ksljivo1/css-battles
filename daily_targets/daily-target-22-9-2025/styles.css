@@ -1,0 +1,18 @@
+* {
+  background: #FEF6E2;
+}
+
+div, *::before, *::after {
+  position: fixed;
+  content: '';
+  inset: 40px 185px;
+  background: #161E44;
+}
+
+div::before {
+  inset: 90px 65px 160px;
+}
+
+div::after {
+  inset: 180px 100px 70px;
+}
