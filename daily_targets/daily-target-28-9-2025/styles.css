@@ -1,0 +1,18 @@
+* {
+  position: fixed;
+  background: #EA9A52;
+}
+
+div {
+  inset: 90px 60px;
+  background: #6255AA;
+  clip-path: polygon(0 50%, 80px 0, 200px 0, 100% 50%, 200px 100%, 80px 100%);
+}
+
+div::before {
+  position: absolute;
+  content: '';
+  inset: 0 80px;
+  background: white;
+  clip-path: polygon(0 0, 50% 45px, 100% 0, 100% 100%, 50% 75px, 0 100%);
+}
