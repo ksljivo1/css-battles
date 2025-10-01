@@ -1,0 +1,23 @@
+* {
+  background: #3F4869
+}
+
+div, div::before, div::after {
+  position: fixed;
+  inset: 0 190px;
+  content: '';
+  background: #E25C57;
+  box-shadow: 80px 0 #E25C57, -80px 0 #E25C57;
+}
+
+div::before {
+  inset: 0 230px 250px 70px;
+  border-radius: 0 0 99px 99px;
+  box-shadow: 160px 0 #E25C57;
+}
+
+div::after {
+  inset: 250px 150px 0;
+  border-radius: 99px 99px 0 0;
+  box-shadow: none;
+}
