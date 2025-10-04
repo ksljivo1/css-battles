@@ -1,0 +1,21 @@
+* {
+  position: fixed;
+  background: white;
+}
+
+div, div::before, div::after {
+  inset: 120px 170px;
+  content: '';
+  background: #4763B1;
+}
+
+div::before, div::after {
+  position: fixed;
+  inset: 70px 340px 70px 40px;
+  box-shadow: 300px 0 #4763B1;
+}
+
+ div::after {
+  inset: 40px 70px 240px 70px;
+  box-shadow: 0 200px #4763B1;
+}
