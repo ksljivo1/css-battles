@@ -1,0 +1,31 @@
+* {
+  background: #AC5353;
+}
+
+#a, #a::before, #a::after {
+  position: fixed;
+  inset: 100px 110px 20px;
+  content: '';
+  background: #222222;
+  border-radius: 50%;
+}
+
+#a::before {
+  inset: 20px 190px 260px;
+}
+
+#a::after {
+  inset: 40px 230px 200px 110px;
+  box-shadow: 120px 0 #222222;
+}
+
+#b, #b::before {
+  position: fixed;
+  inset: 65px 160px 225px;
+  background: #222222;
+}
+
+#b::before {
+  content: '';
+  rotate: 90deg;
+}
