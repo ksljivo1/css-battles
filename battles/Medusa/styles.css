@@ -1,0 +1,42 @@
+* {
+  background: #D9D9D9;
+  position: fixed;
+}
+
+#a {
+  inset: 60px 150px;
+  border-inline: 20px solid #222222;
+  border-bottom: 120px solid #222222;
+  border-radius: 0 0 99px 99px;
+}
+
+#a::before, #a::after {
+  position: fixed;
+  content: '';
+  inset: 60px 270px 180px 70px;
+  border: 20px solid #222222;
+  border-top: 0;
+}
+
+#a::after {
+  inset: 60px 70px 180px 270px;
+}
+
+#b {
+  inset: 60px 330px 220px 50px;
+  background: #222222;
+  box-shadow: 80px 0 #222222, 200px 0 #222222, 280px 0 #222222;
+}
+
+#b::before, #b::after {
+  position: fixed;
+  content: '';
+  inset: 150px 210px 140px 160px;
+  rotate: 15deg;
+  background: #D9D9D9;
+}
+
+#b::before {
+  inset: 150px 160px 140px 210px;
+  rotate: -15deg;
+}
