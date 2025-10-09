@@ -1,0 +1,22 @@
+* {
+  position: fixed;
+  background: #F0CD48;
+}
+
+div {
+  inset: 60px 80px;
+  border: 60px solid #243D83;
+}
+
+div::before, div::after {
+  position: fixed;
+  content: '';
+  inset: 60px 0 160px 240px;
+  background: #F0CD48;
+}
+
+div::after {
+  inset: 60px 100px 180px 240px;
+  background: #5AA4B7;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
